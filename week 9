@@ -1,0 +1,11 @@
+
+library(ggplot2)
+library(readxl)
+
+df <- as.data.frame(read.csv("C:/Users/drwsa/Downloads/ArgentinaCPI.csv"))
+
+ggplot(df, aes(x = time, y = value)) + geom_line() + labs(x = "Time", y = "Value")
+
+ggplot(df, aes(x = time, y = value)) + geom_point() + labs(x = "Time", y = "Value")
+
+ggplot(df, aes(y = value)) + geom_bar() + labs(x = "Time", y = "Value")
