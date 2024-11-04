@@ -1,0 +1,13 @@
+Package: Saunders_Final
+Type: Package
+Title: Final Project, work in progress
+Version: 0.0.0.9000
+Author: Andrew Saunders
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Project will take data from all NBA players in the 2023-24 seasons
+    and graph them to portray meaningful data and identify winning trends for 
+    both team and player success.
+Depends:
+License: CC0
+Encoding: UTF-8
+LazyData: true
